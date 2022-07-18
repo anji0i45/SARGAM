@@ -1,0 +1,51 @@
+*,
+*::before,
+
+/* intserting content( not here in html) before and after element   (work on div but not in input) */
+
+*::after {
+    /*: for normal css but :: for css 3 but few browser support like internet explorer */
+    box-sizing: border-box;
+    /* adding border and padding in width and height */
+}
+
+body {
+    background-color: rgb(5, 5, 114);
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.piano {
+    display: flex;
+    /* next to each other instead of top of each other up and down want side by side */
+}
+
+.key {
+    height: calc(var(--width)*4);
+    width: var(--width);
+}
+
+.white {
+    --width: 100px;
+    background-color: white;
+    border: 1px solid #333;
+}
+
+.white.active {
+    background-color: #ccc;
+}
+
+.black.active {
+    background-color: #333;
+}
+
+.black {
+    --width: 60px;
+    background-color: black;
+    margin-left: calc(var(--width)/-2);
+    margin-right: calc(var(--width)/-2);
+    z-index: 2;
+}
