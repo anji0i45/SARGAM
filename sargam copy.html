@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SARGAM</title>
+    <link rel="stylesheet" href="sargam copy.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css" integrity="sha384-X8QTME3FCg1DLb58++lPvsjbQoCT9bp3MsUU3grbIny/3ZwUJkRNO8NPW6zqzuW9" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="her">
+        <nav class="navu">
+            <div class="logo"><img src="images.jpg" alt="logo">
+                <h1 class="title">Sargam</h1>
+            </div>
+
+            <ul class="nav-list" id="cro">
+                <img src="cro.png" class="fa" onclick="hidemenu()">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#tutorial">Tutorial</a></li>
+                <li><a href="#instruments">Instruments</a></li>
+            </ul>
+            <div class="navbar">
+
+                <button type="button" class="button">sign up</button>
+            </div>
+        </nav>
+
+
+
+
+        <div class="content">
+            <h3>Welcome to our
+            </h3>
+            <h1>Online instrument playing plateform</h1>
+            <button type="button" class="butto">Let's visit</button>
+        </div>
+        <div class="side-bar">
+            <img src="menu.png" class="menu" onclick="showmenu()">
+
+            <div class="social">
+                <a href="https://www.facebook.com/login/"><img src="fb.png"></a>
+                <a href="https://www.instagram.com/login/"> <img src="ig.png"></a>
+                <a href="https://www.twitter.com/login/"><img src="tw.png"></a>
+            </div>
+            <div class="usesocial">
+                <img src="share.png">
+                <img src="info.png">
+
+            </div>
+        </div>
+        <div class="uda">
+            <img src="bhak.jpg">
+            <img src="bhak.jpg">
+            <img src="bhak.jpg">
+            <img src="bhak.jpg">
+            <img src="bhak.jpg">
+            <img src="bhak.jpg">
+            <img src="bhak.jpg">
+
+        </div>
+
+    </div>
+
+
+    <script>
+        var cro = document.getElementById("cro");
+
+        function showmenu() {
+            cro.style.right = "0";
+        }
+
+        function hidemenu() {
+            cro.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
