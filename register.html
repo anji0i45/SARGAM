@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Register</title>
+</head>
+<body>
+    <div class="center">
+    <h1>Register</h1>
+    <form method="post" action="connect.php">
+    <div class="txt_field">
+        <input type="text" name="username" required>
+<span></span>
+        <label for="">Username</label>
+    </div>
+    <div class="txt_field">
+        <input type="email" name="email" required>
+        <span></span>
+        <label for="">Email</label>
+    </div>
+    <div class="txt_field">
+        <input type="password" name="passwor" required>
+        <span></span>
+        <label for="">Password</label>
+    </div><div class="txt_field">
+        <input type="password" name="Cpassword" required>
+        <span></span>
+        <label for="">Confirm Password</label>
+    </div>
+
+
+     <input type="submit" name="save" value="Register">
+        <div class="signup_link">
+            Already a member? <a href="/login.html">Login</a>
+        </div>
+    </form>
+    </div>
+</body>
+</html>
