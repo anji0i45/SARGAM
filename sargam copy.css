@@ -14,7 +14,7 @@
     .her {
         width: 100%;
         height: 100vh;
-        background: rgba(27, 21, 21, 0.493) url(/img/back.jpg);
+        background: rgba(27, 21, 21, 0.493) url(/back.jpg);
         background-blend-mode: darken;
         background-size: cover;
         background-position: center;
